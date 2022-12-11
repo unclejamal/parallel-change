@@ -1,7 +1,8 @@
 package com.pduda.field;
 
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class ImagineThisIsAClientInADifferentRepositoryTest {
 
@@ -10,7 +11,7 @@ public class ImagineThisIsAClientInADifferentRepositoryTest {
     public void singleItem_numberOfProductsInTheCart() throws Exception {
         ImagineThisIsAClientInADifferentRepository client = new ImagineThisIsAClientInADifferentRepository();
 
-        Assert.assertEquals("Total price is 50 euro", client.formattedTotalPrice(50));
+        Assertions.assertEquals("Total price is 50 euro", client.formattedTotalPrice(50));
     }
 
 }
