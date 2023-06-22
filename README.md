@@ -2,7 +2,7 @@
 
 ### What is Parallel Change?
 
-This is a pattern that can be used to evolve a design safely by introducing 
+Also known as Expand and Contract, this is a pattern that can be used to evolve a design safely by introducing 
 backwards compatible changes to a software design without breaking existing 
 clients of code. It involves three steps:
 
