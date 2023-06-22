@@ -19,5 +19,5 @@ The purpose of this exercise is to change the shopping cart from just
 supporting one item of shopping to multiple. Specifically, taking the Ruby example,
 there is a variable called `@price`. Instead, to support multiple prices,
 instead the developer should now introduce a `@prices` collection object (an array).
-Do this in such a way that the unit tests provided remain green (this is a refactoring, after all). if need be
+Do this in such a way that the unit tests provided remain green (this is a refactoring, after all). If need be
 introduce more tests to enhance safety.
