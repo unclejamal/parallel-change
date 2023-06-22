@@ -6,11 +6,11 @@ Also known as Expand and Contract, this is a pattern that can be used to evolve 
 backwards compatible changes to a software design without breaking existing 
 clients of code. It involves three steps:
 
-1. expand (add the new element - class, method, variable)
-2. migrate (clients of the existing element to use the new one introduced in step 1.)
+1. expand (add the new element - class, method, variable);
+2. migrate (clients of the existing element to use the new one introduced in step 1); and
 3. contract (remove the old element - class, method, variable)
 
-A more detail discussion of the pattern, with examples, may be found in
+A more detailed discussion of the pattern, with examples, may be found in
 [Danilo Sato's article on Parallel Change](https://martinfowler.com/bliki/ParallelChange.html).
 
 ### The Exercise
