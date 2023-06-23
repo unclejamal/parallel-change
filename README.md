@@ -2,22 +2,19 @@
 
 ### What is Parallel Change?
 
-Also known as Expand and Contract, this is a pattern that can be used to evolve a design safely by introducing 
-backwards compatible changes to a software design without breaking existing 
-clients of code. It involves three steps:
+Also known as Expand and Contract, this is a pattern that can be used to evolve a software design by introducing 
+backwards compatible changes without breaking clients of the existing code. It involves three steps:
 
 1. expand (add the new element - class, method, variable);
 2. migrate (clients of the existing element to use the new one introduced in step 1); and
 3. contract (remove the old element - class, method, variable)
 
-A more detailed discussion of the pattern, with examples, may be found in
+A more detailed discussion, with examples, may be found in
 [Danilo Sato's article on Parallel Change](https://martinfowler.com/bliki/ParallelChange.html).
 
-### The Exercise
+## Your Task
+Using Parallel Change, modify the class `ShoppingCart` to handle multiple items instead of a single one.
+Tests have already been written.
 
-The purpose of this exercise is to change the shopping cart from just
-supporting one item of shopping to multiple. Specifically, taking the Ruby example,
-there is a variable called `@price`. Instead, to support multiple prices,
-instead the developer should now introduce a `@prices` collection object (an array).
-Do this in such a way that the unit tests provided remain green (this is a refactoring, after all). If need be
-introduce more tests to enhance safety.
+## Rules
+The tests must not be red at any time. No compile-errors, no failures. (The only exception is for a few seconds while you write a single line of code.)
