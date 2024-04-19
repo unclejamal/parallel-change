@@ -4,7 +4,6 @@ using System.Linq;
 namespace ParallelAndNarrowChange.Field;
 
 public class ShoppingCart{
-    private decimal price;
     private List<int> _prices;
 
     public ShoppingCart()
@@ -23,7 +22,6 @@ public class ShoppingCart{
     public void Add(int aPrice)
     {
         _prices.Add(aPrice);
-        price = aPrice;
     }
 
     public int NumberOfProducts(){
