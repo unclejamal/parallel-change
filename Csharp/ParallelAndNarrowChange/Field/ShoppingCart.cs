@@ -4,6 +4,7 @@ using System.Linq;
 namespace ParallelAndNarrowChange.Field;
 
 public class ShoppingCart{
+    private const int MinimumPriceForDiscount = 100;
     private List<int> _prices;
 
     public ShoppingCart()
@@ -16,7 +17,7 @@ public class ShoppingCart{
     }
 
     public bool HasDiscount(){
-        return _prices.Sum() > 100;
+        return _prices.Sum() > MinimumPriceForDiscount;
     }
 
     public void Add(int aPrice)
