@@ -5,7 +5,7 @@ declare(strict_types=1);
 use ParallelChange\ShoppingCart;
 use PHPUnit\Framework\TestCase;
 
-class ShoppingCartTest extends PHPUnit_Framework_TestCase
+class ShoppingCartTest extends TestCase
 {
     public function testShoppingCartMayHaveJustOneItem()
     {

@@ -3,8 +3,9 @@
 declare(strict_types=1);
 
 use ParallelChange\AuthenticationService;
+use PHPUnit\Framework\TestCase;
 
-class AuthenticationServiceTest extends PHPUnit_Framework_TestCase
+class AuthenticationServiceTest extends TestCase
 {
     public function testAdministratorIsAlwaysAuthenticated()
     {
