@@ -1,8 +1,14 @@
-## Install dev dependencies
-    composer install
-    
+## Install dependencies
+```bash
+composer install
+```
+ 
 ## Run all code
-    composer run
-    
+```bash
+composer run
+```
+
 ## Run only unit tests
-    composer test
+```bash
+composer test
+```
